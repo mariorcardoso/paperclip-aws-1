@@ -10,5 +10,7 @@
   <%= @post.content %>
 </p>
 
+<%= image_tag @post.image.url(:original), height: '500', width: '500', class: "img-responsive" %>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
