@@ -47,3 +47,9 @@ gem 'paperclip'
 
 gem 'dotenv-rails', group: :development
 
+gem 'aws-sdk', '< 2.0'
+
+gem 'simple_form'
+
+gem "twitter-bootstrap-rails", :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
