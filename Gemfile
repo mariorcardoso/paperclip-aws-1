@@ -45,3 +45,5 @@ end
 
 gem 'paperclip'
 
+gem 'dotenv-rails', group: :development
+
